@@ -1,0 +1,40 @@
+# The database location.
+# Defaults to $XDG_DATA_HOME/typre/typre.db unless set here.
+db = "typre.db"
+
+# Word sets are resolved relative to this path, using filename stems as the set names.
+# Defaults to $XDG_DATA_HOME/typre/sets unless set here.
+sets_dir = "sets"
+
+# Whether to fill the theme background.
+# Defaults to true unless set here.
+# Can be overriden by --bg/--no-bg.
+show_bg = true
+
+# Selected theme from [themes].
+# Can be overriden by --theme THEME.
+theme = "mountain"
+
+# Themes copied from github.com/monkeytypegame/monkeytype.
+# Modify values in existing themes or create new subtables as [themes.<name>].
+
+[themes.default]
+bg = "black"
+correct = "green"
+error = "red"
+extra = "red"
+empty = "white"
+
+[themes.mountain]
+bg = "#0f0f0f"
+correct = "#e7e7e7"
+error = "#ac8c8c"
+extra = "#c49ea0"
+empty = "#4c4c4c"
+
+[themes.mint]
+bg = "#05385b"
+correct = "#edf5e1"
+error = "#f35588"
+extra = "#a3385a"
+empty = "#20688a"

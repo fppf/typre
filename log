@@ -1,0 +1,13 @@
+timestamp,duration,word_set,word_count,punct,numbers,wpm,acc,cons,errors,quit
+1659637541,0,english_1k,50,false,false,0,0,0,0,true
+1659638837,3,english_1k,50,false,false,0,0,0,0,true
+1659658051,0,english_1k,50,false,false,0,0,0,0,true
+1659658687,0,english_1k,50,false,false,0,0,0,0,true
+1659660545,0,english_1k,300,false,false,0,0,0,0,true
+1659709297,11,english_1k,30,false,false,0,0,0,0,true
+1659709354,21,english_1k,30,false,false,0,0,0,0,true
+1659710236,20,english_1k,30,false,false,0,0,0,0,true
+1659710293,15,english_1k,30,false,false,0,0,0,0,true
+1659710561,0,english_1k,30,true,true,0,0,0,0,true
+1659724523,2,english_1k,30,true,true,0,0,0,0,true
+1659724529,15,english_1k,30,true,false,0,0,0,0,true
